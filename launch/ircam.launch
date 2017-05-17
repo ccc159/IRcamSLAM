@@ -1,0 +1,7 @@
+<launch>
+
+	<node pkg="ir_cam" name="ircam_4points" type="ircam_4points.py" required="true" output="screen"></node>
+	<node pkg="ir_cam" name="ircam_vis" type="ircam_vis.py" output="screen"></node>
+	<!-- <node pkg="ir_cam" name="ircam_buzzer" type="ircam_buzzer.py" output="screen"></node> -->
+
+</launch>

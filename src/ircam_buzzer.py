@@ -20,12 +20,10 @@ def buzzerNode():
 def callback(data):
 
     if data.data != "1023 , 1023 , 1023 , 1023 , 1023 , 1023 , 1023 , 1023":
-        buzzer.beep()
-
+        buzzer.on()
         #rospy.loginfo("points detected: buzzer on")
     else:
-        buzzer.beep()
-        buzzer.beep()
+        buzzer.off()
         #rospy.loginfo("no points detected: buzzer off")
 
     return ""

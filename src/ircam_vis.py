@@ -39,9 +39,9 @@ def makeMarkers(pose):
         marker.color.r = 255
         marker.color.g = 0
         marker.color.b = 0
-        marker.scale.x = 40
-        marker.scale.y = 40
-        marker.scale.z = 40
+        marker.scale.x = 20
+        marker.scale.y = 20
+        marker.scale.z = 20
     marker.color.a = 1.0
 
     marker.header.frame_id = 'ircam'

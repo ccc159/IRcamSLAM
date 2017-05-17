@@ -11,5 +11,7 @@
 	<!-- indicate buzzer/led when detecting the points -->
 	<node pkg="ir_cam" name="ircam_buzzer" type="ircam_buzzer.py" output="screen"></node>
 
+	<!-- output camera transformation matrix and PoseStamped -->
+	<node pkg="ir_cam" name="ircam_transformation" type="ircam_transformation.py" output="screen"></node>
 
 </launch>

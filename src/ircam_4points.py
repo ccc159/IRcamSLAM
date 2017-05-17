@@ -61,18 +61,18 @@ def runIrCamNode():
         camera.getPositions() 
         # If an IR object is found, print the information
         if camera.positions['found']:
-            counterNotDetecting = 1
             s = ("%d, %d , %d, %d , %d, %d , %d, %d" % (camera.positions['1'][0],camera.positions['1'][1],camera.positions['2'][0],camera.positions['2'][1],camera.positions['3'][0],camera.positions['3'][1],camera.positions['4'][0],camera.positions['4'][1]) )
             if counterDetecting == 1:
-                rospy.loginfo ("points detecting...")
+                rospy.loginfo ("points detecting!...")
                 counterDetecting = 0
             pub.publish(s)
 
             
         else:
+            counterNotDetecting += 1
             counterDetecting = 1
-            if counterNotDetecting == 1:
-                rospy.logwarn ("no points detected...searching...")
+            if counterNotDetecting >= 1000:
+                rospy.logwarn ("no points detected...")
                 counterNotDetecting = 0
 
             pub.publish("1023 , 1023 , 1023 , 1023 , 1023 , 1023 , 1023 , 1023")
@@ -82,8 +82,8 @@ def runIrCamNode():
 # eof
 
 if __name__ == '__main__':
-    counterDetecting = 1
-    counterNotDetecting = 1
+    counterDetecting = 0
+    counterNotDetecting = 0
     try:
         runIrCamNode()
     except rospy.ROSInterruptException:

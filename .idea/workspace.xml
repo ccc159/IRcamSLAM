@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c07f7d6-9571-4604-88a3-6e0e6338a383" name="Default" comment="" />
+    <list default="true" id="5c07f7d6-9571-4604-88a3-6e0e6338a383" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/launch/ircam.launch" afterPath="$PROJECT_DIR$/launch/ircam.launch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/detector.py" afterPath="$PROJECT_DIR$/src/detector.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_4points.py" afterPath="$PROJECT_DIR$/src/ircam_4points.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_transformation.py" afterPath="$PROJECT_DIR$/src/ircam_transformation.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +22,7 @@
       <file leaf-file-name="ircam_mat.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ircam_mat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2436">
+            <state relative-caret-position="702">
               <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
               <folding>
                 <element signature="e#22#34#0" expanded="true" />
@@ -27,10 +34,22 @@
       <file leaf-file-name="ircam_vis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ircam_vis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1670">
-              <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="24" />
+            <state relative-caret-position="-180">
+              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
               <folding>
                 <element signature="e#51#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ircam_4points.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ircam_4points.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+              <folding>
+                <element signature="e#46#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,8 +58,8 @@
       <file leaf-file-name="detector.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+            <state relative-caret-position="1092">
+              <caret line="71" column="48" lean-forward="false" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -48,21 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transformation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/transformation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ircam_transformation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ircam_transformation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
               <folding>
                 <element signature="e#22#34#0" expanded="true" />
               </folding>
@@ -82,19 +91,27 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>rotationMatrix</find>
+      <find>\t</find>
+      <find>quaternion_from_ma</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ir_cam.py" />
-        <option value="$PROJECT_DIR$/src/ircam_4points.py" />
         <option value="$PROJECT_DIR$/src/sample.py" />
         <option value="$PROJECT_DIR$/src/ircam_mat.py" />
-        <option value="$PROJECT_DIR$/src/ircam_buzzer.py" />
-        <option value="$PROJECT_DIR$/src/ircam_vis.py" />
-        <option value="$PROJECT_DIR$/src/ircam_transformation.py" />
         <option value="$PROJECT_DIR$/src/transformations_lib.py" />
+        <option value="$PROJECT_DIR$/src/ircam_vis.py" />
+        <option value="$PROJECT_DIR$/src/ircam_buzzer.py" />
+        <option value="$PROJECT_DIR$/src/ircam_4points.py" />
+        <option value="$PROJECT_DIR$/src/ircam_transformation.py" />
         <option value="$PROJECT_DIR$/src/detector.py" />
       </list>
     </option>
@@ -145,6 +162,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -160,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -188,8 +207,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir_cam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ir_cam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="launch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,6 +325,14 @@
       <option name="presentableId" value="Default" />
       <updated>1493562102276</updated>
     </task>
+    <task id="LOCAL-00001" summary="changed ros log info">
+      <created>1495029440135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495029440135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,10 +343,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -320,6 +362,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed ros log info" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed ros log info" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -327,6 +373,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ircam_transformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_mat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2436">
@@ -667,23 +733,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ircam_4points.py">
+    <entry file="file://$PROJECT_DIR$/src/transformations_lib.py" />
+    <entry file="file://$PROJECT_DIR$/launch/ircam.launch">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="68" column="79" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="79" />
+        <state relative-caret-position="126">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_buzzer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="924">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ircam_vis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding>
+            <element signature="e#51#79#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_mat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2436">
+        <state relative-caret-position="702">
           <caret line="63" column="58" lean-forward="false" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
           <folding>
             <element signature="e#22#34#0" expanded="true" />
@@ -691,46 +770,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/transformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50682">
+          <caret line="1280" column="22" lean-forward="false" selection-start-line="1280" selection-start-column="22" selection-end-line="1280" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ircam_4points.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="73" column="40" lean-forward="false" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <element signature="e#46#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_transformation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="462">
+          <caret line="11" column="71" lean-forward="false" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
           <folding>
             <element signature="e#22#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ircam_vis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1670">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="24" />
-          <folding>
-            <element signature="e#51#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transformations_lib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="206" column="19" lean-forward="false" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/transformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+        <state relative-caret-position="1092">
+          <caret line="71" column="48" lean-forward="false" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

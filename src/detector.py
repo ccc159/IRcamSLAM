@@ -3,6 +3,8 @@ import numpy as np
 import cv2
 import transformation as tf
 from geometry_msgs.msg import PoseStamped
+from geometry_msgs.msg import Quaternion
+from geometry_msgs.msg import Point
 
 class Detection:
 	def __init__(self,size):
@@ -67,8 +69,8 @@ class Detection:
 		# convert matrix to quaternion
 		quaternion = tf.quaternion_from_matrix(self.rotationMatrix,True)
 		self.poseStamped.header.frame_id = 'world'
-		self.poseStamped.pose.position = self.translationVec
-		self.poseStamped.pose.orientation = quaternion
+		self.poseStamped.pose.position = Point(*self.translationVec)
+		self.poseStamped.pose.orientation = Quaternion(*quaternion)
 
 		return self
 

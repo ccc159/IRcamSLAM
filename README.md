@@ -2,6 +2,8 @@
 Use IR positioning camera to get transformation matrix between the object and camera.
 This is a *ROS package*, developed in ROS-Kinetic
 
+[![](http://img.youtube.com/vi/idRZSgrLW1o/0.jpg)](http://www.youtube.com/watch?v=idRZSgrLW1o)<br>
+
 ### What does it do
 This IRcam ROS Package uses [IR Positioning Camera](https://www.dfrobot.com/product-1088.html)(a diversion of WII controller) on **Raspberry Pi 3** to get 4 brightest points from IR LEDs, and calculates a transformation matrix between the camera and IR-LED-plane.
 
@@ -34,4 +36,4 @@ This IRcam ROS Package uses [IR Positioning Camera](https://www.dfrobot.com/prod
     70: -- -- -- -- -- -- -- -- 
     ```
   * The sensor address is ```0x58```
-* Build this package in `ROS catkin`, and run it! *Follow [this](https://github.com/ros-industrial/industrial_training/wiki/Installing-Existing-Packages#52-download-and-build-a-package-from-source) if you don't know how to build a ros package from github*
+* Build this package in `ROS catkin`, and run it! *Follow [this](https://github.com/ros-industrial/industrial_training/wiki/Installing-Existing-Packages#52-download-and-build-a-package-from-source) if you don't know how to build a ros package from github.*

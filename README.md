@@ -20,6 +20,7 @@ This IRcam ROS Package uses [IR Positioning Camera](https://www.dfrobot.com/prod
 
 ### Steps
 * Connect IRcamera to Raspberry Pi 3 using following wiring diagram.<br>
+  <img src="https://raw.githubusercontent.com/ccc159/IRcamSLAM/master/IRCame_Wiring.png" width="400"/>
 * (OPTIONAL) You can connect a Beeper or normal LED at GPIO17 to indicate whether the IR cam detects IR LED.<br>
 * Activate Raspberry Pi 3 I2C protocol.
 * (OPTIONAL) Test the IR Camera on I2C port. 

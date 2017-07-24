@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ir_cam.iml" filepath="$PROJECT_DIR$/.idea/ir_cam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vive_ros/.idea/vive_ros.iml" filepath="$PROJECT_DIR$/../vive_ros/.idea/vive_ros.iml" />
     </modules>
   </component>
 </project>

@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c07f7d6-9571-4604-88a3-6e0e6338a383" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ircam_2pointsdetect.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vive_ros/src/copy" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vive_ros/src/rospy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/_ir_cam_node.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ir_cam.iml" afterPath="$PROJECT_DIR$/.idea/ir_cam.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_4points.py" afterPath="$PROJECT_DIR$/src/ircam_4points.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_buzzer.py" afterPath="$PROJECT_DIR$/src/ircam_buzzer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_mat.py" afterPath="$PROJECT_DIR$/src/ircam_mat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_transformation.py" afterPath="$PROJECT_DIR$/src/ircam_transformation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_vis.py" afterPath="$PROJECT_DIR$/src/ircam_vis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vive_ros/.idea/vive_ros.iml" afterPath="$PROJECT_DIR$/../vive_ros/.idea/vive_ros.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vive_ros/src/vive_bridge.py" afterPath="$PROJECT_DIR$/../vive_ros/src/vive_bridge.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vive_ros/src/vive_controll.py" afterPath="$PROJECT_DIR$/../vive_ros/src/vive_controll.py" />
@@ -66,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ircam_4points.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ircam_4points.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ircam_4points.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1394">
@@ -78,12 +69,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ircam_2pointsdetect.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ircam_2pointsdetect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#22#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ircam_mat.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ircam_mat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ircam_transformation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ircam_transformation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#22#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,6 +148,7 @@
         <option value="$PROJECT_DIR$/../vive_ros/src/vive_fake.py" />
         <option value="$PROJECT_DIR$/../vive_ros/src/vive_controll.py" />
         <option value="$PROJECT_DIR$/../vive_ros/src/vive_bridge.py" />
+        <option value="$PROJECT_DIR$/src/ircam_2pointsdetect.py" />
       </list>
     </option>
   </component>
@@ -238,8 +254,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../vive_ros/src" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/../vive_ros/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,6 +375,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="104" width="3710" height="2033" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17169811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -394,13 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ircam_vis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_transformation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
@@ -650,20 +660,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../vive_ros/src/util.py" />
-    <entry file="file://$PROJECT_DIR$/src/ircam_mat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2688">
-          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="72" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_vis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1806">
@@ -722,20 +718,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ircam_transformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_4points.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1394">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#46#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="72" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ircam_mat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ircam_transformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ircam_2pointsdetect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c07f7d6-9571-4604-88a3-6e0e6338a383" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ircam_2pointsdetect.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vive_ros/src/copy" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../vive_ros/src/rospy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ircam_2pointsdetect.py" afterPath="$PROJECT_DIR$/src/ircam_2pointsdetect.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vive_ros/.idea/vive_ros.iml" afterPath="$PROJECT_DIR$/../vive_ros/.idea/vive_ros.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vive_ros/src/vive_bridge.py" afterPath="$PROJECT_DIR$/../vive_ros/src/vive_bridge.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vive_ros/src/vive_controll.py" afterPath="$PROJECT_DIR$/../vive_ros/src/vive_controll.py" />
@@ -72,8 +71,8 @@
       <file leaf-file-name="ircam_2pointsdetect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ircam_2pointsdetect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="918">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#22#34#0" expanded="true" />
               </folding>
@@ -756,8 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ircam_2pointsdetect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="918">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#22#34#0" expanded="true" />
           </folding>

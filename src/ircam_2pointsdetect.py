@@ -38,8 +38,7 @@ def main(argv=None):
 
 
 if __name__ == '__main__':
-    pubStr,pubPose = None,None
+    pubStr = None
 
     # define the marker size.
-    detection = Detection(10)
     main()
